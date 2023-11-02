@@ -1,4 +1,10 @@
 .bg-hero-image {
 background-image: url("https://picsum.photos/1300/500");
 background-position:center center;
+}.border-gallery {
+    border-bottom: 5px solid rgb(0, 103, 129);
+}.border-1 {
+    border: 3px solid rgb(63, 63, 63);
+}.foot {
+    background-color: rgb(189, 189, 189);
 }
