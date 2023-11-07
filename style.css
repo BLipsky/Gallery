@@ -8,10 +8,32 @@ background-position:center center;
 }
 .foot {
     background-color: rgb(189, 189, 189);
+
 }
 .border-1 {
     border: 10px solid rgb(0, 103, 129);
 }
-.width {
-    width:75vw;
+
+body {
+    background-repeat: no-repeat;
+    background-image: radial-gradient(rgb(255, 255, 255), white, white, rgb(88, 88, 88));
+}
+.text1 {
+    font-family: 'Edu_TAS_Beginner';
+    font-weight: 1000;
+    font-size: 175%;
+    text-shadow: 5px 5px 5px #0a0a0a;
+}
+.text2 {
+    font-family: 'Edu_TAS_Beginner';
+    font-weight: 500px;
+    text-shadow: 2px 2px 5px #414141;
+}
+.borderclass1 {
+    border: 2px solid rgb(15, 105, 146);
+    box-shadow: 3vw 3vw 5vw rgb(17, 56, 73);
+}
+.borderclass2 {
+    border: 0.2vw solid rgb(15, 105, 146);
+    box-shadow: 1.5vw 1.5vw 2.5vw rgb(17, 56, 73);
 }
