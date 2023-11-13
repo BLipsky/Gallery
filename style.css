@@ -1,5 +1,5 @@
 .bg-hero-image {
-background-image: url("https://picsum.photos/1300/500");
+background-image: url("Box1.jpg");
 background-position:center center;
 }
 .border-gallery {
@@ -16,13 +16,13 @@ background-position:center center;
 
 body {
     background-repeat: no-repeat;
-    background-image: radial-gradient(rgb(255, 255, 255), white, white, rgb(88, 88, 88));
+    background-image: linear-gradient(black,black);
 }
 .text1 {
     font-family: 'Edu_TAS_Beginner';
     font-weight: 1000;
     font-size: 175%;
-    text-shadow: 5px 5px 5px #0a0a0a;
+    text-shadow: 5px 5px 5px #d6e4e7;
 }
 .text2 {
     font-family: 'Edu_TAS_Beginner';
@@ -30,10 +30,27 @@ body {
     text-shadow: 2px 2px 5px #414141;
 }
 .borderclass1 {
-    border: 2px solid rgb(15, 105, 146);
-    box-shadow: 3vw 3vw 5vw rgb(17, 56, 73);
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 3vw 3vw 5vw rgb(104, 104, 104);
 }
 .borderclass2 {
-    border: 0.2vw solid rgb(15, 105, 146);
-    box-shadow: 1.5vw 1.5vw 2.5vw rgb(17, 56, 73);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1.5vw 1.5vw 2.5vw rgb(138, 138, 138);
 }
+
+  .navv {
+background-color: #6e6e6e;
+border-bottom: 2px solid rgb(201, 201, 201);
+  }
+  .m0 {
+    margin: 0;
+    width: 100%;
+  } 
+  
+  
+  
+  
+  
+  
+  
+  
