@@ -16,7 +16,8 @@ background-position:center center;
 
 body {
     background-repeat: no-repeat;
-    background-image: linear-gradient(black,black);
+    background-attachment: fixed;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(193, 193, 193), rgb(160, 160, 160), rgb(138, 138, 138));
 }
 .text1 {
     font-family: 'Edu_TAS_Beginner';
@@ -47,8 +48,128 @@ border-bottom: 2px solid rgb(201, 201, 201);
     width: 100%;
   } 
   
+  .top-bar .nav-item {
+    padding-left: 2vw;
+    display: inline-block;
+  }
   
+  nav {
+    padding: 0px;
+  }
   
+  nav.top-bar-wrap {
+    background-image: linear-gradient(rgb(0, 100, 0), rgb(21, 114, 21), rgb(77, 137, 77));  }
+  
+  .top-bar-wrap {
+    height: 40px;
+    line-height: 40px;
+  }
+  
+  .main-nav-wrap {
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  nav.main-nav-wrap {
+    background-image: linear-gradient(white, rgb(176, 176, 176));
+    font-size: 1.25rem;
+  }
+  
+  nav.top-bar-wrap ul,
+  nav.main-nav-wrap ul {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  a.nav-link:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-left: 12px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  a.nav-link {
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Rubik", sans-serif;
+    transform: skew(-25deg);
+    transition: all 400ms ease-out;
+  }
+  
+  a .inner-link {
+    display: inline-block;
+    transform: skew(25deg);
+  }
+  
+  .nav-link {
+    padding: 0px;
+  }
+  
+  .top-bar-wrap a {
+    padding-left: 12px;
+  }
+  
+  .main-nav-wrap a {
+    padding-left: 18px;
+  }
+  
+  .brand-logo img {
+    height: 110px;
+  
+    transform: skew(25deg);
+  }
+  
+  .brand-phone a {
+    display: block;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 2px;
+    height: 0px;
+    line-height: 1.5em;
+    text-shadow: 0vw 0vw 1vw rgb(221, 240, 255);
+    transform: skew(25deg);
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .brand-phone,
+  .brand-logo {
+    padding-right: 5vw;
+    padding-top: 0.5vw;
+    position: absolute;
+    top: 0;
+    height: 120px;
+    transform: skewX(-25deg);
+  }
+  
+  .brand-logo {
+    left: -30px;
+    padding-left: 70px;
+    background-image: linear-gradient(white, rgb(176, 176, 176));
+    border-right: 2px solid rgb(255, 255, 255);
+  }
+  
+  .brand-phone {
+    right: 0;
+    right: -30px;
+    padding-right: 70px;
+    background-image: linear-gradient(rgb(0, 100, 0), rgb(21, 114, 21), rgb(77, 137, 77));
+    border-left: 3px solid rgb(255, 255, 255);
+  }
+  .pad {
+    text-shadow: 0vw 0vw 1vw rgb(255, 255, 255);
+    font-weight: 300px;
+  }
+  .new {
+    text-align: center;
+  }
+  .line {
+    width: 100%;
+    border-top: 0.25vw solid rgb(255, 255, 255);
+    box-shadow: 0vw 0vw 2vw 2vw rgb(167, 167, 167);
+  }
+
   
   
   
