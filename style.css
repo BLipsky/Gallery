@@ -7,7 +7,7 @@ background-position:center center;
     width: 70vw;
 }
 .foot {
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(6, 72, 12);
 
 }
 .border-1 {
@@ -17,6 +17,7 @@ background-position:center center;
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow: hidden;
     background-image: linear-gradient(rgb(255, 255, 255),rgb(193, 193, 193), rgb(160, 160, 160), rgb(138, 138, 138));
 }
 .text1 {
@@ -39,6 +40,11 @@ body {
     box-shadow: 1.5vw 1.5vw 2.5vw rgb(138, 138, 138);
 }
 
+.c1 {
+  padding-top: 0vw;
+  box-shadow: 0vw 0vw 0vw 2vw rgb(14, 74, 0);
+}
+
   .navv {
 background-color: #6e6e6e;
 border-bottom: 2px solid rgb(201, 201, 201);
@@ -47,7 +53,10 @@ border-bottom: 2px solid rgb(201, 201, 201);
     margin: 0;
     width: 100%;
   } 
-  
+  .l2 {
+    padding: 2vw;
+    opacity: 0%;
+  }
   .top-bar .nav-item {
     padding-left: 2vw;
     display: inline-block;
