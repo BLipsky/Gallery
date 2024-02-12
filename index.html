@@ -47,7 +47,7 @@
         </div>
         <div class="brand-phone">
           <a class="new" href="index.html"
-            ><i class="fa me-3"></i>Gallery Site<br /></a
+            ><i class="fa me-3"></i>Other Sites<br /></a
           >
         </div>
         <div class="text-center">
@@ -76,7 +76,9 @@
     </div>
     <div class="line"></div>
     <div class="container-fluid lit2">
-<div class="container paralax">              
+<div class="container paralax">  
+  <p class="quotes" id="press-quote">NAPS is by far the most significant cultural force of the decade. — New York Times</p>
+            
 <!-- Gallery -->
      <div class="row m-3">
   <div class="col-12 col-lg-4 p-3 mb-2">
@@ -205,7 +207,25 @@
 </footer>
 
 
+<script>
 
+  let quotesArray = [
+  'Bensites websites are always truly phenomenal. — New York User',
+  'These days amazing Bensites websites are not just acceptable, but innivative. — New Jersey User',
+  'Bensites has changed the way people think about websites, on a grand scale. — New Hampshire User',
+  'Happiness increased 200% since Bensites began promoting their websites. — New Mexico User',
+  'Bensites has ushered in a new era of websites. — California User',
+  'Not surprisingly, more Bensites websites means more productivity. — Texas User',
+  'Bensites is doing the hard work of helping people get the websites they need. — Florida User'
+  ]
+  
+  let randomNumber = Math.floor(Math.random()* quotesArray.length); // Generating Press Random
+  
+  document.getElementById('press-quote').textContent = '“ ' + quotesArray[randomNumber].split('—')[0] + '” —' + quotesArray[randomNumber].split('—')[1]; // Generating Press Random
+  
+  
+  </script>
+  
 
 
 
