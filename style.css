@@ -191,6 +191,9 @@ background-color: #bd1212;
     padding-left: 1em;
   }
 
+  .card {
+    box-shadow: 2vw 1vw 10vw .1vw white;
+  }
   
   
   
