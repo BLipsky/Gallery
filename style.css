@@ -1,43 +1,47 @@
 .bg-hero-image {
-background-image: url("Box1.jpg");
-background-position:center center;
+  background-image: url("Box1.jpg");
+  background-position: center center;
 }
 .border-gallery {
-    border-bottom: 5px solid rgb(0, 103, 129);
-    width: 70vw;
+  border-bottom: 5px solid rgb(0, 103, 129);
+  width: 70vw;
 }
 .foot {
-    background-color: rgb(6, 72, 12);
-
+  background-color: rgb(6, 72, 12);
 }
 .border-1 {
-    border: 10px solid rgb(0, 103, 129);
+  border: 10px solid rgb(0, 103, 129);
 }
 
 body {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-    background-image: linear-gradient(rgb(255, 255, 255),rgb(193, 193, 193), rgb(160, 160, 160), rgb(138, 138, 138));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgb(193, 193, 193),
+    rgb(160, 160, 160),
+    rgb(138, 138, 138)
+  );
 }
 .text1 {
-    font-family: 'Edu_TAS_Beginner';
-    font-weight: 1000;
-    font-size: 175%;
-    text-shadow: 5px 5px 5px #d6e4e7;
+  font-family: "Edu_TAS_Beginner";
+  font-weight: 1000;
+  font-size: 175%;
+  text-shadow: 5px 5px 5px #d6e4e7;
 }
 .text2 {
-    font-family: 'Edu_TAS_Beginner';
-    font-weight: 500px;
-    text-shadow: 2px 2px 5px #414141;
+  font-family: "Edu_TAS_Beginner";
+  font-weight: 500px;
+  text-shadow: 2px 2px 5px #414141;
 }
 .borderclass1 {
-    border: 3px solid rgb(255, 255, 255);
-    box-shadow: 3vw 3vw 5vw rgb(104, 104, 104);
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 3vw 3vw 5vw rgb(104, 104, 104);
 }
 .borderclass2 {
-    border: 2px solid rgb(255, 255, 255);
-    box-shadow: 1.5vw 1.5vw 2.5vw rgb(138, 138, 138);
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 1.5vw 1.5vw 2.5vw rgb(138, 138, 138);
 }
 
 .c1 {
@@ -45,156 +49,217 @@ body {
   box-shadow: 0vw 0vw 0vw 2vw rgb(14, 74, 0);
 }
 
-  .navv {
-background-color: #bd1212;
-  }
-  .m0 {
-    margin: 0;
-    width: 100%;
-  } 
-  .l2 {
-    padding: 2vw;
-    opacity: 0%;
-  }
-  .top-bar .nav-item {
-    padding-left: 2vw;
-    display: inline-block;
-  }
-  
-  nav {
-    padding: 0px;
-  }
-  
-  nav.top-bar-wrap {
-    background-image: linear-gradient(rgb(0, 100, 0), rgb(21, 114, 21), rgb(77, 137, 77));  }
-  
-  .top-bar-wrap {
-    height: 40px;
-    line-height: 40px;
-  }
-  
-  .main-nav-wrap {
-    height: 80px;
-    line-height: 80px;
-  }
-  
-  nav.main-nav-wrap {
-    background-image: linear-gradient(white, rgb(176, 176, 176));
-    font-size: 1.25rem;
-    width: 80vw;
-    text-align: center;
-    padding-left: 20vw;
-  }
-  
-  nav.top-bar-wrap ul,
-  nav.main-nav-wrap ul {
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-  
-  a.nav-link:hover {
-    background: rgba(0, 0, 0, 0.2);
-    color: #fff;
-    border-left: 12px solid rgba(0, 0, 0, 0.3);
-  }
-  
-  a.nav-link {
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: "Rubik", sans-serif;
-    transform: skew(-25deg);
-    transition: all 400ms ease-out;
-  }
-  
-  a .inner-link {
-    display: inline-block;
-    transform: skew(25deg);
-  }
-  
-  .nav-link {
-    padding: 0px;
-  }
-  
-  .top-bar-wrap a {
-    padding-left: 12px;
-  }
-  
-  .main-nav-wrap a {
-    padding-left: 18px;
-  }
-  
-  .brand-logo img {
-    height: 110px;
-  
-    transform: skew(25deg);
-  }
-  
-  .brand-phone a {
-    display: block;
-    font-size: 1.25em;
-    text-decoration: none;
-    color: #ffffff;
-    letter-spacing: 2px;
-    height: 0px;
-    line-height: 1.5em;
-    text-shadow: 0vw 0vw 1vw rgb(221, 240, 255);
-    transform: skew(25deg);
-    font-family: 'Comic Sans MS', cursive;
-  }
-  
-  .brand-phone,
-  .brand-logo {
-    padding-right: 5vw;
-    padding-top: 0.5vw;
-    position: absolute;
-    top: 0;
-    height: 120px;
-    transform: skewX(-25deg);
-  }
-  
-  .brand-logo {
-    left: -30px;
-    padding-left: 70px;
-    background-image: linear-gradient(white, rgb(176, 176, 176));
-    border-right: 2px solid rgb(255, 255, 255);
-  }
-  
-  .brand-phone {
-    right: 0;
-    right: -30px;
-    padding-right: 70px;
-    background-image: linear-gradient(rgb(0, 100, 0), rgb(21, 114, 21), rgb(77, 137, 77));
-    border-left: 3px solid rgb(255, 255, 255);
-  }
-  .pad {
-    text-shadow: 0vw 0vw 1vw rgb(255, 255, 255);
-    font-weight: 300px;
-  }
-  .new {
-    text-align: center;
-  }
-  .line {
-    width: 100%;
-    border-top: 0.25vw solid rgb(255, 255, 255);
-    box-shadow: 0vw 0vw 2vw 2vw rgb(167, 167, 167);
-  }
+.navv {
+  background-color: #bd1212;
+}
+.m0 {
+  margin: 0;
+  width: 100%;
+}
+.l2 {
+  padding: 2vw;
+  opacity: 0%;
+}
+.top-bar .nav-item {
+  padding-left: 2vw;
+  display: inline-block;
+}
 
-  #press-quote {
-    font-style: italic;
-    font-size: 1.4rem;
-    line-height: 1.5;
-    font-weight:5300;
-    margin: 1.8rem ;
-    border-left: 4px solid #009628;
-    padding-left: 1em;
-  }
+nav {
+  padding: 0px;
+}
 
-  .card {
-    box-shadow: 2vw 1vw 10vw .1vw white;
-  }
-  
-  
-  
-  
+nav.top-bar-wrap {
+  background-image: linear-gradient(
+    rgb(0, 100, 0),
+    rgb(21, 114, 21),
+    rgb(77, 137, 77)
+  );
+}
+
+.top-bar-wrap {
+  height: 40px;
+  line-height: 40px;
+}
+
+.main-nav-wrap {
+  height: 80px;
+  line-height: 80px;
+}
+
+nav.main-nav-wrap {
+  background-image: linear-gradient(white, rgb(176, 176, 176));
+  font-size: 1.25rem;
+  width: 80vw;
+  text-align: center;
+  padding-left: 20vw;
+}
+
+nav.top-bar-wrap ul,
+nav.main-nav-wrap ul {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+a.nav-link:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-left: 12px solid rgba(0, 0, 0, 0.3);
+}
+
+a.nav-link {
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  transform: skew(-25deg);
+  transition: all 400ms ease-out;
+}
+
+a .inner-link {
+  display: inline-block;
+  transform: skew(25deg);
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+.top-bar-wrap a {
+  padding-left: 12px;
+}
+
+.main-nav-wrap a {
+  padding-left: 18px;
+}
+
+.brand-logo img {
+  height: 110px;
+
+  transform: skew(25deg);
+}
+
+.brand-phone a {
+  display: block;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  height: 0px;
+  line-height: 1.5em;
+  text-shadow: 0vw 0vw 1vw rgb(221, 240, 255);
+  transform: skew(25deg);
+  font-family: "Comic Sans MS", cursive;
+}
+
+.brand-phone,
+.brand-logo {
+  padding-right: 5vw;
+  padding-top: 0.5vw;
+  position: absolute;
+  top: 0;
+  height: 120px;
+  transform: skewX(-25deg);
+}
+
+.brand-logo {
+  left: -30px;
+  padding-left: 70px;
+  background-image: linear-gradient(white, rgb(176, 176, 176));
+  border-right: 2px solid rgb(255, 255, 255);
+}
+
+.brand-phone {
+  right: 0;
+  right: -30px;
+  padding-right: 70px;
+  background-image: linear-gradient(
+    rgb(0, 100, 0),
+    rgb(21, 114, 21),
+    rgb(77, 137, 77)
+  );
+  border-left: 3px solid rgb(255, 255, 255);
+}
+.pad {
+  text-shadow: 0vw 0vw 1vw rgb(255, 255, 255);
+  font-weight: 300px;
+}
+.new {
+  text-align: center;
+}
+.line {
+  width: 100%;
+  border-top: 0.25vw solid rgb(255, 255, 255);
+  box-shadow: 0vw 0vw 2vw 2vw rgb(167, 167, 167);
+}
+
+#press-quote {
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 5300;
+  margin: 1.8rem;
+  border-left: 4px solid #009628;
+  padding-left: 1em;
+}
+
+.card {
+  box-shadow: 2vw 1vw 10vw 0.1vw white;
+}
+
+.greencircle {
+  background-color: green;
+  width: 50%;
+  position: absolute;
+  left: 60%;
+  border-radius: 50vw;
+  height: 500px;
+  width: 500px;
+  top: 25%;
+  box-shadow: -0vw 0vw 2vw #00c534;
+}
+.whitecircle {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  position: absolute;
+  left: 57%;
+  border-radius: 50vw;
+  height: 500px;
+  width: 500px;
+  top: 33%;
+  box-shadow: -0vw 0vw 2vw #ffffff;
+}
+.textbox {
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  left: 10%;
+  width: 25%;
+  text-align: center;
+  text-shadow: 0vw 0vw 1vw rgb(212, 255, 197);
+  top: 40%;
+  border: .5vw solid white;
+  border-radius: 2vw;
+  padding: 1vw;
+  box-shadow: 0vw 0vw 2vw;
+}
+.textbox1 {
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  left: 10%;
+  width: 25%;
+  text-align: center;
+  text-shadow: 0vw 0vw 1vw rgb(9, 60, 21);
+  top: 30%;
+  scale: 4;
+}
+.newb {
+  width: 10%;
+  position: absolute;
+  top: 85%;
+  left: 17%;
+  padding: 1vw;
+  border-radius: 2vw;
+}
